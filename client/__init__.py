@@ -162,6 +162,16 @@ class Graph(Data):
         """
         self.set_option('credits', kwargs)
 
+    def set_plot_options(self, **kwargs):
+        """Set the plotoptions: http://www.highcharts.com/ref/#plotOptions
+        """
+        self.set_option('plotOptions', kwargs)
+
+    def set_legend(self, **kwargs):
+        """Set the legend: http://www.highcharts.com/ref/#legend
+        """
+        self.set_option('legend', kwargs)
+
 
 class Client(object):
     """A client class which provides widget specific functionality

@@ -7,12 +7,8 @@
     Example Usage::
 
         >>> from visioboardclient import send
-        >>> dashboard_id = "ID of your dashboard"
-        >>> widget_id = "ID of your widget"
-        >>> access_key = "Your access key"
-        >>> # Setting the image src of a picture widget
         >>> data = {'options': {'src': "http://image/source"}}
-        >>> result = send(dashboard_id, widget_id, access_key, data)
+        >>> result = send('<Dashbord>', '<Widget>', '<Access Key>', data)
 
     :copyright: (c) 2011 by Openlabs Technologies & Consulting (P) Limited
     :license: BSD, see LICENSE for more details.
